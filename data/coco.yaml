@@ -1,0 +1,12 @@
+# COCO 2017 dataset http://cocodataset.org
+
+
+train: /kaggle/working/train2017.txt  # 118287 images
+val: /kaggle/working/coco/val2017.txt  # 5000 images
+test: /kaggle/working/coco/test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 4
+
+# class names
+names: [ "tasit", "insan", "uap", "uai" ]
